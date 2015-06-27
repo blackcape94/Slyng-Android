@@ -1,10 +1,8 @@
 package www.slyngapp.com.slyng;
 
 import android.app.Activity;
-import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -23,8 +21,8 @@ public class Enter extends Activity {
         Header =(TextView) findViewById(R.id.enter_header);
         Header.setTypeface(billabong);
 
-        Button emailSignup = (Button) findViewById(R.id.emailSignup);;
-        emailSignup.setPaintFlags(emailSignup.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        //Button emailSignup = (Button) findViewById(R.id.emailSignup);;
+        //emailSignup.setPaintFlags(emailSignup.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
     }
 
 }
